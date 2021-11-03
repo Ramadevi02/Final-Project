@@ -85,6 +85,12 @@
     padding: 5px;
     font-size: 20px;
 }
+@media only screen and (max-width: 403px){
+   .navbar .btn {
+        margin-top: -150px;
+        margin-left: 100px;
+    }
+}
 @media only screen and (min-width: 0px) and (max-width: 991px){
     #welcome #content{
         margin-left: auto;
