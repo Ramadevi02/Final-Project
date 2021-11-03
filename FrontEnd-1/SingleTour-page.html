@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">-->
+        <title>Single Tour</title>
+        <script src="https://kit.fontawesome.com/a5b8707f99.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Final-Project-1.css">
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- NavBar -->
+            <div class="navbar navbar-light bg-light">
+                <div class="container">
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <img src="images/logoETB.webp" alt="Logo">
+                    <button type="button" class="btn border border-1 border-success bg-light text-dark rounded-0"> <i class="fas fa-phone-alt"></i>  GET IN TOUCH</button>
+                </div>
+                <div class="collapse navbar-collapse mx-5 px-5" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link p-3" href="Final-Project-1.html">Home</a>
+                        <a class="nav-link p-3" href="Destination.html">Destination</a>
+                        <a class="nav-link p-3" aria-current="page" href="#Private-tour.html">Private Tour</a>
+                        <a class="nav-link active bg-dark text-light p-3" href="SingleTour-page.html">Single Tour</a>
+                        <a class="nav-link p-3" href="TourList.html">Tours List</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sheader -->
+            <div class="container-fluid d-flex align-items-center" id="sheader">
+                <div class="container text-center text-light">
+                    <h4 class="fw-normal">HALF DAY</h4>
+                    <h1>Horseback Riding</h1>
+                    <button type="button" class="btn bg-success border-0 rounded-0 px-4 text-light py-2">BOOK NOW</button>
+                </div>
+            </div>
+            <!-- Horseback Riding -->
+            <div class="container py-5">
+                <h2 class="py-2">Horseback to the mountain of Paraiso</h2>
+                <div class="row row-cols-3 hbutton">
+                    <button type="button" class="btn highlights" id="highlights" onclick="myFunction1()">HIGHTLIGHTS</button>
+                    <button type="button" class="btn description" id="description" onclick="myFunction2()">DESCRIPTION</button>
+                    <button type="button" class="btn galery" id="galery" onclick="myFunction3()">GALERY</button>
+                </div>
+                <!-- Highlights -->
+                <div class="highlights-div" id="highlights-div">
+                    <div class="row py-3">
+                        <div class="col-12 col-lg-4">
+                            <div class="highlights-bg ps-5 p-3">
+                                <p><b>ROUTE:</b>Barahona - Paraiso</p>
+                                <p><i class="far fa-clock"></i> Horseback riding / Duration: 3-4 hours</p>
+                                <hr>
+                                <p><i class="fas fa-map-marker-alt"></i> Departing from: Barahona</p>
+                                <hr>
+                                <p><i class="fas fa-camera"></i> Panoramic view over the Caribbean Sea</p>
+                                <hr>
+                                <p><i class="fas fa-water"></i> Ride through a river</p>
+                                <hr>
+                                <p><i class="far fa-flag"></i> Stop at the paprika greenhouse</p>
+                                <div class="text-center bg-lightgrey m-2 p-2">
+                                    <button class="btn border-0 rounded-0 bg-success text-light fw-bold" type="button">$60</button>
+                                    <p class="fw-bold">per adult</p>
+                                    <p>Guaranteed departure from 2 adults</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div class="p-2">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d970893.6370909577!2d-71.53086369994716!3d18.09207192135069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ebaf894f4997bb9%3A0x9005736fb2c405da!2sParaiso%2081000%2C%20Dominican%20Republic!5e0!3m2!1sen!2sin!4v1635758791495!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Description -->
+                <div class="container description-div bg-grey" id="description-div" >
+                    <div class="row py-5">
+                        <div class="col-8 m-auto col-lg-4">
+                            <p><b>ROUTE:</b>Barahona - Paraiso</p>
+                            <div class="row">
+                                <div class="col-4 d-flex align-items-center justify-content-center">
+                                    <div class="text-success">
+                                        <p class="my-5">1 hour</p>
+                                        <p class="my-5">30 min</p>
+                                        <p class="my-5">1 hour</p>
+                                        <p class="my-5">30 min</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="text-center">
+                                        <div>
+                                            <i class="fas fa-map-marker-alt p-2 fs-3 rounded-circle bg-lightgrey"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="vr text-success" style="height: 50px;width: 3px;"></span>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fas fa-circle text-success"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="vr text-success" style="height: 50px;width: 3px;"></span>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fas fa-circle text-success"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="vr text-success" style="height: 50px;width: 3px;"></span>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <i class="fas fa-circle text-success"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="vr text-success" style="height: 50px;width: 3px;"></span>
+                                        </div>
+                                        <div>
+                                            <i class="far fa-flag p-2 fs-3 rounded-circle bg-lightgrey"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5 d-flex align-items-center">
+                                    <div>
+                                        <p class="mt-0 mb-5 fw-bold">Barahona</p>
+                                        <p class="my-4">Caribbean Sea Panoramic view</p>
+                                        <p class="my-4">Rever Ride</p>
+                                        <p class="my-4">Reprika Greenhouse</p>
+                                        <p class="mt-4 fw-bold mb-0">Paraiso</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8 text-start px-3">
+                            <p class="fw-bold">Go on horseback to the mountains of Paraiso. Visit, accompanied by a local guide, the small farms of the locals living in the municipality of "Villa Nizao" where bananas, coffee, cocoa and avocados are grown.</p>
+                            <p>The tour starts early in the morning with the ascent to the mountains of Paraiso. The path leads, past small communities, up to Villa Nizao (small mountain village). During the ascent, we will make some stops to admire the panoramic views over the coast of Paraiso and to explore the communities of Dominican and Haitian farmers on our way.</p>
+                            <p>The way back leads through the fresh and clear water of the river "Nizaito", back to the village of Paraiso. On the way down we make another stop where you have the chance to visit a greenhouse where paprika is grown. Finally, we return to the village where we leave the horses behind and take the road back to your hotel by car.</p>
+                            <button type="button" class="btn bg-success border-0 rounded-0 px-4 text-light py-2">BOOK NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Galery -->
+                <div class="container galery-div" id="galery-div">
+                    <div class="row py-2">
+                        <div class="col-12 col-lg-5 py-lg-5 border border-2 border-success">
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 py-2" id="gimg">
+                                <div >
+                                    <img class="w-100 h-100 pb-1" src="images/beach.jpg" alt="galery">
+                                </div>
+                                <div>
+                                    <img class="w-100 h-100 pb-1" src="images/eco-2.jpeg" alt="galery">
+                                </div>
+                                <div >
+                                    <img class="w-100 h-100 pb-1" src="images/m3.jpg" alt="galery">
+                                </div>
+                                <div>
+                                    <img class="w-100 h-100 pb-1" src="images/eco-3.jpeg" alt="galery">
+                                </div>
+                                <div>
+                                    <img class="w-100 h-100 pb-1" src="images/eco-1.jpeg" alt="galery">
+                                </div>
+                                <div>
+                                    <img class="w-100 h-100 pb-1" src="images/eco-4.jpeg" alt="galery">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <img class="w-100 h-100" src="images/horse.jpg" alt="galery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel -->
+            <div class="container-fluid text-center">
+                <div class="container" id="carousel">
+                    <div class="carousel slide w-75 m-auto" data-bs-ride="carousel" id="carouselSlide">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselSlide" data-bs-slide-to="0" aria-label="Slide 1"></li>
+                            <li data-bs-target="#carouselSlide" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                            <li data-bs-target="#carouselSlide" data-bs-slide-to="2" aria-label="Slide 3" class="active"></li>
+                            <li data-bs-target="#carouselSlide" data-bs-slide-to="3" aria-label="Slide 4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="images/eco-5.jpeg" class="w-100" alt="gallery">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/eco-6.jpeg" class="w-100" alt="gallery">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="images/horse.jpg" class="w-100" alt="gallery">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/eco-2.jpeg" class="w-100" alt="gallery">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-target="#carouselSlide" type="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" data-bs-target="#carouselSlide" type="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+                <button type="button" class="btn bg-success border-0 rounded-0 px-4 m-5 text-light py-2">BOOK NOW</button>
+            </div>
+            <!-- Footer -->
+            <div class="container-fluid" id="footer">
+                <div class="container">
+                    <div class="row row-cols-md-2 row-cols-lg-5 text-light py-5">
+                        <div>
+                            <img class="py-1" src="images/logoETB.webp" alt="logo">
+                            <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Pellentesque viverra vulputate enim.</p>
+                            <img src="images/ingles-godominican.png" alt="logo">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua.</p>
+                        </div>
+                        <div>
+                            <h5 class="text-success py-3">ABOUT US</h5>
+                            <h6 class="py-1">ABOUT ECOTOUR</h6>
+                            <h6 class="py-1">BARAHONA</h6>
+                            <h6 class="py-1">OUR TEAM</h6>
+                            <h6 class="py-1">GUESTBOOK</h6>
+                            <h6 class="py-1">IMPRINT</h6>
+                        </div>
+                        <div>
+                            <h5 class="text-success py-3">CUSTOMER SERVICE</h5>
+                            <h6 class="py-1">BOOKING CONDITION</h6>
+                            <h6 class="py-1">CONTACT-US</h6>
+                            <h6 class="py-1">FAQ'S</h6>
+                            <h6 class="py-1">LEGAL NOTICE</h6>
+                            <h6 class="py-1">PRIVACY POLICY</h6>
+                        </div>
+                        <div>
+                            <h5 class="text-success py-3">RESERVATION & <br>BOOKINGS</h5>
+                            <h6 class="py-1">MONDAY TO FRIDAY <br>From 8:00 am to 8:00 pm</h6>
+                            <h6 class="py-1">SATURDAY TO SUNDAY <br>From 9:00 am to 5:00 pm</h6>
+                            <h6 class="py-1">Atlantics Standard Time <br>   +1(809) 856 2260</h6>
+                        </div>
+                        <div>
+                            <h5 class="text-success py-3">FOLLOW US</h5>
+                            <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i> <i class="fas fa-blog"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function myFunction1(){
+                var x = document.getElementById("highlights-div");
+                    x.style.display = "block";
+                
+                var x = document.getElementById("description-div");
+                    x.style.display = "none";
+                
+                var x = document.getElementById("galery-div");
+                x.style.display = "none"    
+            }
+            function myFunction2(){
+                var x = document.getElementById("highlights-div");
+                    x.style.display = "none";
+                
+                var x = document.getElementById("description-div");
+                    x.style.display = "block";
+                
+                var x = document.getElementById("galery-div");
+                x.style.display = "none"    
+            }
+            function myFunction3(){
+                var x = document.getElementById("highlights-div");
+                    x.style.display = "none";
+                
+                var x = document.getElementById("description-div");
+                    x.style.display = "none";
+                
+                var x = document.getElementById("galery-div");
+                x.style.display = "block"    
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!--<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>-->
+    </body>
+</html>

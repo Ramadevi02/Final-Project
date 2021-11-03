@@ -1,0 +1,276 @@
+/*--------- Home Page --------*/
+/* NavBar */
+.bg-success{
+    background-color: rgb(101, 182, 21) !important;
+}
+.text-success{
+    color: rgb(101, 182, 21) !important;
+}
+.border-success{
+    border-color: rgb(101, 182, 21) !important;
+}
+.text-darkgreen{
+    color: darkgreen;
+}
+.navbar-nav{
+    display: inline-block;
+}
+#header{
+    background-image: url('images/header.jpeg');
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img1 i{
+    font-size: 60px;
+}
+/* Welcome */
+#welcome{
+    background-image: url('images/eco-9.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#welcome img{
+    margin-right: -100px;
+    width: 100%;
+}
+#welcome #content{
+    margin-left: -70px;
+    font-size: 15px;
+}
+/* Travel */
+#travel img{
+    width: 100%;
+}
+#travel .col1 img{
+    height: 300px;
+}
+#travel .col2 img{
+    height: 460px;
+}
+#travel .hide{
+    display: none;
+}
+#travel .card:hover .hide{
+    display: block;
+}
+/* Book */
+#book{
+    background-image: url('images/tree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#book .container{
+    padding-top: 10% !important;
+}
+#book #book1{
+    background-color: rgba(15, 15, 15, 0.7);
+}
+#book #book1 i{
+    font-size: 50px;
+}
+#opinion img{
+    width: 25%;
+}
+/* Footer */
+#footer, .bg-darkgreen{
+    background-color: darkgreen;
+}
+#footer img{
+    width: 100%;
+}
+#footer i{
+    padding: 5px;
+    font-size: 20px;
+}
+@media only screen and (min-width: 0px) and (max-width: 991px){
+    #welcome #content{
+        margin-left: auto;
+        margin-top: -150px;
+        width: 80%;
+        margin-right: auto;
+    }
+    #welcome img{
+        width: 100%;
+        margin-right: auto;
+    }
+    #travel img{
+        height: 400px !important;
+    }
+}
+/*------------Destinatioon Page-----------*/
+#banner{
+    background-image: url('images/friend\ -\ Copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center top;
+}
+#banner1 div img{
+    width: 100%;
+    height: 250px;
+}
+/* Geograpghy */
+#geography{
+    background-color: rgb(199, 194, 194);
+}
+#geography1 i{
+    font-size: 50px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -38px;
+}
+#boat{
+    background-image: url('images/boat.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+#island{
+    background-image: url('images/eco-9.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#island .row{
+    position: relative;
+    z-index: 1;
+}
+#island .row .top1{
+    z-index: 0;
+    margin-right: -70px;
+}
+@media only screen and (min-width:700px) and (max-width:991px){
+    #banner1 div img{
+        height: 350px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 991px){
+    #island .row .top1{
+        width: 80%;
+        margin: auto;
+        margin-bottom: -80px;
+    }
+}
+/*--------------Private Tour Page----------------*/
+#pheader{
+    background-image: url('images/pheader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center top;
+}
+#pstarted{
+    background-image: url('images/eco-9.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pstarted .button{
+    padding-top: 10% !important;
+}
+#pstarted button{
+    margin-top: -30px;
+}
+#pstarted1{
+    background-color: rgba(15, 15, 15, 0.7);
+}
+#pstarted1 i{
+    font-size: 50px;
+}
+.bg-lightgrey{
+    background-color: rgb(189, 182, 182);
+}
+#myDiv{
+    display: none;
+    padding-top: 5% !important;
+}
+#myDiv1{
+    display: block;
+}
+#inspired{
+    background-color: rgb(218, 219, 219);
+}
+#inspired img{
+    width: 100%;
+    height: 340px;
+}
+#guid .bg-light > i{
+    font-size: 30px;
+    color: darkgreen;
+}
+#guid .review i{
+    font-size: 20px;
+    color: green;
+}
+/*------------Single Tour Page----------*/
+#sheader{
+    background-image: url('images/eco-5.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+}
+#carousel img{
+    height: 300px;
+}
+.carousel-indicators{
+    margin-bottom: -30px;
+}
+.carousel-indicators li{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+    background-color: brown !important;
+}
+.highlights-bg, .bg-grey{
+    background-color: rgb(218, 219, 219);
+}
+.hbutton{
+    border-bottom: 3px solid rgb(101, 182, 21);
+}
+.hbutton button::after{
+    border-bottom: 3px solid rgb(101, 182, 21);
+}
+#gimg img{
+    height: 130px;
+}
+#description-div, #galery-div{
+    display: none;
+}
+@media only screen and (min-width: 800px){
+    #carousel img{
+        height: 450px;
+    }
+}
+/*-----------Single Tour page-------------*/
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+#select-trip i{
+    color: rgb(101, 182, 21);
+    font-size: 50px;
+}
+#select-trip .review1 i{
+    font-size: 25px;
+}
+#select-trip .review2 i{
+    font-size: 15px;
+    border-color: rgb(101, 182, 21);
+}
+.border-start{
+    border-color: #959ba0 !important;
+}
+#select-trip a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (min-width: 992px){
+    .list-image img{
+        height: 80vh;
+    }
+}
+
